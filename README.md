@@ -18,5 +18,6 @@ This simple code uses simple functions of Numpy to get better understand the con
 ![image2](https://user-images.githubusercontent.com/19593774/104777552-aa164400-579d-11eb-8e4f-31b689518994.JPG)
 
 ### Result
-![resultant](https://user-images.githubusercontent.com/19593774/104777199-19d7ff00-579d-11eb-8626-c953a0a93aca.JPG)
+![resultant](https://user-images.githubusercontent.com/19593774/104777678-e47fe100-579d-11eb-8069-e2cbf8852a38.JPG)
+
 
