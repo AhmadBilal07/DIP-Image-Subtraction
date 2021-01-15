@@ -13,18 +13,23 @@ img2 = Image.open(IMAGE2)
 rgbImage1 = np.asarray(img1, dtype="int32" )
 rgbImage2 = np.asarray(img2, dtype="int32" )
 
-# Converting RGB image to Gray Scale by computing average of RGB values
-grayImage1 = np.mean(rgbImage1,axis = 2)
-grayImage2 = np.mean(rgbImage2,axis = 2)
+#Checking If both images are of same size or not
+if rgbImage1.shape == rgbImage2.shape :
 
-# Subtracting both Images
-result = grayImage1 - grayImage2
+    # Converting RGB image to Gray Scale by computing average of RGB values
+    grayImage1 = np.mean(rgbImage1,axis = 2)
+    grayImage2 = np.mean(rgbImage2,axis = 2)
 
-# Forming image from array
-finalImage = Image.fromarray(result)
+    # Subtracting both Images
+    result = grayImage1 - grayImage2
 
-# Storing final result
-finalImage.convert("L").save("result.png")
+    # Forming image from array
+    finalImage = Image.fromarray(result)
 
-# Displaying final result
-finalImage.show()
+    # Storing final result
+    finalImage.convert("L").save("result.png")
+
+    # Displaying final result
+    finalImage.show()
+else:
+    print("Error : Dimension of both images must be same for subtraction.")
