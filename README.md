@@ -1,7 +1,7 @@
 # DIP-Image-Subtraction
 Python code to subtract two images.</br>
 ## Purpose 
-This code uses simple functions of Numpy to get better understand the concept of Image Subtraction which can be used for detecting motion in pictures/videos. </br>
+This code uses simple functions of Numpy to get better understanding of the concept of Image Subtraction which can be used for detecting motion in pictures/videos. </br>
 
 ### Working
 1- Opens rgb Images <br/>
